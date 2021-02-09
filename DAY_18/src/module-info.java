@@ -1,0 +1,2 @@
+module DAY_18 {
+}
