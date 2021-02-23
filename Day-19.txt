@@ -1,0 +1,188 @@
+Day -19:
+
+HTML -> 
+formatting tags: big, small, italic, bold, underline..........
+font tag : font -> <font size="" face="" color="">
+
+
+comments in html :
+	<! jsdfldsfjldsfjldasfjdldjflkasfjladsfjsadlfjladsjf -->
+
+<br> - takes it to next line
+<hr> - horizontal ruler
+
+<p></p> -> para tag -> to specify data in para formats 
+
+<pre></pre> -> pre formatting tag(it doesn't ignore white space and nextline)
+
+Heading tags -> 
+	<h1>chapter : html</h1>
+	<h2>Tags</h2>
+	<h3>image</h3>
+	<h4>attributes like src...</h4>
+	<h5>something</h5>
+	<h6>this is last heading</h6>
+
+
+image tag :
+	<img >
+		attributes : src, height, width, alt, 
+
+
+List tags:text to me displayed int number or bullet notation
+	i. Order list
+	ii. unorder list
+	iii. definition list
+
+order list -> i,ii, iii,.....
+	   -> 1,2,3,4
+	   -> a, b, c.....
+
+
+type -> a, A, i, I, 1, 
+	   
+<ol>
+	<li>shiva</li>
+	<li>.......
+</ol>
+	
+unorder list -> disc, square, circle
+
+<ul>
+	<li>shiva</li>
+	<li>.......
+</ul>
+
+
+task:
+
+
+
+display food court menu card:
+
+
+
+Choose from following options:
+
+1. BreakFast
+	i.Dosa(5)
+		a. ghee dosa
+		b. 70mm dosa
+2. Lunch
+	* veg
+		> 
+	* non-veg
+
+
+
+
+-> hyper links :(anchor tag)-> <a></a>
+	-> href -> hyper link reference.
+	-> these are used for redirecting from one place to other or one page to another page.
+	-> Types : 
+		-> Internal hyperlink
+		-> external hyperlink(to a website or our external pages)
+
+
+_blank
+_self
+#name
+
+
+form elements:
+
+	1. <label>username :</label>
+	2. <input type="" name="">
+		type ="text"
+		     ="password"
+		     ="submit"
+		     ="reset"
+		     ="checkbox"
+		     ="radio"
+		     ="button"
+
+
+
+CSS -> cascading style sheets
+
+	-> For style our web pages.
+	-> It has to be applied on either HTML or PHP.
+	
+How many ways css can be applied on HTML
+	-> inline style sheet
+	-> internal style sheet
+	-> external style sheet
+
+syntax of css :
+
+selector {
+	property : value;
+	property : value;.....
+	}
+
+selector -> it selects which element has to be applied with style.
+
+types of selectos:
+1. universal selector (*)
+2. id selector
+3. class selector
+4. type selector
+5. combinator selector 
+6. adjacent selector 
+7. child selector -> p>a
+8. sibiling selector -> p ~ h1
+
+9. Attribute selector -> a[title]
+10. attribute value selector input[type="text"]
+11. attribute value * -> contains a[href*="shiva"]
+12. attribute value ^ -> 
+13. attribute value $ -> 
+14. pseudo selector -> a:visited, a:link, a:hover, input[type=radio]:checked , :after
+
+15. not(selector) -> div:not(#cont){ }
+16. first-line -> p::first-line{}
+17. first-letter -> p::first-letter{}
+18. nth-child-> li:nth-child(3){}
+19. nth-last-child(n)-> li:nth-last-child(2){}
+20. nth-of-type -> ul:nth-of-type(3)
+21. nth-last-of-type
+22. first-child -> ul li:first-child{}
+23. last-child -> ul li:last-child{}
+24. only-child -> div p:only-child{}
+25. first-of-type -> ul:first-of-type{}
+
+
+properties :
+
+-> background properties
+-> 
+
+
+css -> box model -> margin, border, padding,  
+
+
+		     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
